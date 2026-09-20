@@ -1,0 +1,36 @@
+{
+    "model_name": "RandomForestClassifier",
+    "model_version": "devlens-v1",
+    "features": [
+        "function_count",
+        "class_count",
+        "loop_count",
+        "conditional_count",
+        "try_block_count",
+        "max_complexity",
+        "avg_complexity",
+        "max_nesting",
+        "avg_nesting",
+        "max_function_length",
+        "avg_function_length",
+        "max_parameters",
+        "total_issues",
+        "low_issues",
+        "medium_issues",
+        "high_issues",
+        "critical_issues"
+    ],
+    "positive_class": "bugfix_touched",
+    "negative_class": "no_bugfix_observed",
+    "training_samples": 6,
+    "test_samples": 2,
+    "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.0
+    },
+    "dataset": "flask_training_dataset.csv",
+    "warning": "Experimental baseline trained using heuristic historical labels."
+}
